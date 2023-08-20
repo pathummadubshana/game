@@ -1,0 +1,82 @@
+.body {
+  margin: 0px;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(resourses/background.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  overflow-x: hidden;
+  position: absolute;
+}
+.boy {
+  height: 290px;
+  position: absolute;
+  margin-top: 340px;
+}
+.score {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 140px;
+  position: absolute;
+  font-weight: bold;
+}
+.box {
+  width: 80px;
+  height: 130px;
+  background-image: url("resourses/flame.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 500px;
+}
+.d1 {
+  font-size: 50px;
+  margin-top: 20px;
+  position: absolute;
+}
+.d2 {
+  margin-top: 200px;
+  margin-left: 700px;
+  color: blueviolet;
+  font-size: 50px;
+  position: absolute;
+}
+.d {
+  font-size: 30px;
+  color: black;
+}
+.d3 {
+  margin-top: 200px;
+  margin-left: 700px;
+  position: absolute;
+  font-size: 50px;
+  visibility: hidden;
+  color: purple;
+}
+.final {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  font-weight: bold;
+  content: green;
+  margin-left: 60px;
+}
+.btn {
+  margin-top: 75px;
+  margin-left: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}

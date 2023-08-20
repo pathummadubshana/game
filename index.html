@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2d game</title>
+    <link rel="stylesheet" href="style.css"  />
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body class="body" onkeyup="keyCheck(event);">
+    <div class="background" id="background">
+      <div class="d1">Score:</div>
+      <div class="score" id="score">0</div>
+      <div class="d3" id="d3">
+        <div>Game over</div>
+        <div>Final Score</div>
+        <div class="final" id="final">0</div>
+        <button class="btn" onClick="window.location.reload(true)">
+          play again
+        </button>
+      </div>
+
+      <div class="d2" id="d2">
+       
+        <div>Welcome !!!</div>
+        <div class="d">press the "Enter" or "Space" for start the game.</div>
+        <div class="d">press the "Space "for jump the image.</div>
+      </div>
+
+      <img src="resourses/Run (1).png" class="boy" id="boy" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
